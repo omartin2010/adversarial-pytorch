@@ -80,7 +80,7 @@ def classify (img, correct_class = None, target_class = None, show_image = False
     plt.sca(ax2)
     plt.ylim([0, 1.1])
 
-    imagenet_json = ".\\imagenet.json"
+    imagenet_json = "imagenet.json"
     with open(imagenet_json) as f:
         imagenet_labels = json.load(f)
 
@@ -102,7 +102,7 @@ momentum = 0.9
 epsilon = 0.002/255.0
 loss_threshold = 1e-6
 steps = 100
-source_img_filename = '.\\cat.jpg'
+source_img_filename = 'cat.jpg'
 
 
 # Load pre-trained model
