@@ -102,7 +102,7 @@ momentum = 0.9
 epsilon = 0.002/255.0
 loss_threshold = 1e-6
 steps = 100
-source_img_filename = '.\\me.jpg'
+source_img_filename = '.\\cat.jpg'
 
 
 # Load pre-trained model
